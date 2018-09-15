@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./index.css">
+    <script src="./scripts/siema.min.js"></script>
+    <title>Michael Reyfman</title>
+</head>
+<body>
+<header class="header">
+    <h1>Michael Reyfman</h1>
+    <div class="subheader">Front End developer (React)</div>
+</header>
+<section class="c-contacts">
+    <h2 class="section-header">Contacts</h2>
+    <div class="section-content--horizontal">
+        <ul class="c-contacts__list">
+            <li class="item">
+                <b>Location:</b> Kiev, UA
+            </li>
+            <li class="item">
+                <b>E-mail:</b> mi.reyfman@gmail.com
+            </li>
+            <li class="item">
+                <b>Phone:</b> +38(093)949-81-73
+            </li>
+        </ul>
+        <ul class="c-contacts__list">
+            <li class="item">
+                <b>GitHub:</b> <a href="https://github.com/michael-reyfman" target="_blank">https://github.com/michael-reyfman</a>
+            </li>
+            <li class="item">
+                <b>LinkedIn:</b> <a href="" target="_blank">here would be the link</a>
+            </li>
+            <li class="item">
+                <b>CV Link:</b> <a href="" target="_blank">.pdf</a> <a href="" target="_blank">.docx</a>
+            </li>
+        </ul>
+    </div>
+</section>
+<section class="c-bio">
+    <h2 class="section-header">Bio</h2>
+    <p>
+        I am a passionate 21 year-old Front End developer with more than 1 year of commercial experience. Currently I am seeking for new career opportunities, so if you are interested in my candidature, you can use the links above to contact me.
+    </p>
+</section>
+<section class="c-skills">
+    <h2 class="section-header">Skills</h2>
+    <div class="section-content--horizontal">
+        <ul class="c-skills__list">
+            <li class="item">
+                <b>JavaScript:</b> ES5, ES2015+
+            </li>
+            <li class="item">
+                <b>Layout:</b> HTML5, CSS3, responsive and cross-browser layouts
+            </li>
+            <li class="item">
+                <b>Styles:</b> SASS, LESS, Stylus, PostCSS
+            </li>
+            <li class="item">
+                <b>CSS Frameworks:</b> bootstrap, semantic ui, material ui
+            </li>
+        </ul>
+        <ul class="c-skills__list">
+            <li class="item">
+                <b>React:</b> react-router, react-apollo
+            </li>
+            <li class="item">
+                <b>State management:</b> redux, redux-thunk, redux-saga, redux-reselect
+            </li>
+            <li class="item">
+                <b>Back End:</b> node.js, express, apollo-graphql
+            </li>
+            <li class="item">
+                <b>Databases:</b> mysql, postgresql, mongodb
+            </li>
+            <li class="item">
+                <b>Additional:</b> python, c++, algorithms, data-structures, oop
+            </li>
+        </ul>
+    </div>
+</section>
+<section class="c-projects">
+    <h2 class="section-header">Projects</h2>
+    <div class="section-content">
+        <div class="c-projects__carousel">
+            <section>
+                <article>
+                    <h3>Electronic cabinet for doctor and patient (React + GraphQL server)</h3>
+                    <figure class="c-projects__image">
+                        <img src="./images/sloth.jpg" alt="cute sloth xd">
+                        <figcaption>lorem ipsum</figcaption>
+                    </figure>
+                    This project was for my bachelor degree diploma. I had to implement two different web-applications for doctor and patient accordingly and connect them via GraphQL server. It's pretty unfinished but nevertheless shows some basic features of the application:
+                    <ul>
+                        <li>Signing up / Signing in</li>
+                        <li>Doctor and patient's user profile</li>
+                        <li>Create and manage appointments</li>
+                        <li>Write private messages</li>
+                        <li>View patient's documents and medical history</li>
+                    </ul>
+                    That was my (almost) first time to create and setup the server based on GraphQL and data storage with MongoDB. For front end I used react/redux (planning to rewrite state management to react-apollo for better data handling).
+                </article>
+            </section>
+            <section>
+                <article>
+                    <h3>Blood analyzer (React)</h3>
+                    <figure class="c-projects__image">
+                        <img src="./images/sloth.jpg" alt="cute sloth xd">
+                        <figcaption>cute screenshot</figcaption>
+                    </figure>
+                    Blood analyzer is an application that can process your blood analysis results and suggest some diagnoses that you may have if some parameters are beyond normal interval. This project is rather old (Nov 2017) and many features I know for now were not known by me at that time :(. Also, that was nearly my first time of writing component and state management tests using jest and mocha.
+                </article>
+            </section>
+            <div>3</div>
+            <div>4</div>
+        </div>
+    </div>
+</section>
+<section>
+    <h2 class="section-header">Hobbies and interests</h2>
+    <div class="section-content">
+        <ul>
+            <li>
+                <b>maths and programming in general:</b> love solving abstract problems (<a href="https://www.codewars.com/users/michael-reyfman" target="_blank">codewars profile</a>)</li>
+            <li><b>linguistics:</b> currently learning chinese and japanese (or trying, at least)</li>
+            <li><b>rhythm gaming</b></li>
+            <li><b>eating</b></li>
+        </ul>
+    </div>
+</section>
+<script>
+    new Siema({
+      selector: '.c-projects__carousel'
+    });
+</script>
+</body>
+</html>
