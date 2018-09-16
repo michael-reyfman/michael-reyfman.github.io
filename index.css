@@ -66,3 +66,16 @@ p {
     max-width: 100%;
     max-height: 400px;
 }
+
+.to-top-btn {
+    border: none;
+    font-family: monospace;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    background-color: #c0e5af;
+    cursor: pointer;
+}
+
+.to-top-btn:hover {
+    background-color: #c8eeb6;
+}
