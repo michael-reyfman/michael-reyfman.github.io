@@ -53,6 +53,10 @@ p {
     }
 }
 
+.ironic-text {
+    text-decoration: line-through;
+}
+
 .c-projects__carousel {
     margin-top: 1rem;
     width: 100%;
